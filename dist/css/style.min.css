@@ -1,1 +1,1 @@
-body{padding:0;margin:0;display:block}.grid-container{display:grid;grid-template-columns:200px 200px 200px;grid-template-rows:200px 200px 200px;-moz-column-gap:20px;column-gap:20px;row-gap:20px}.grid-element{background:#01015b;color:#fff;text-align:center;font-size:26px;border:1px solid #000;border-radius:4px;padding-top:50%}
+body{margin:0;padding:0}.head{height:180px;padding:30px 20px 5px 50px}/*# sourceMappingURL=style.min.css.map */
