@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"title": "ice blueberry",
+		"itemsInBox": 6,
+		"weight": 100,
+		"price": 100,
+		"imgSrc": "ice-blueberry.jpg",
+		"name": "Daim"
+	},
+	{
+		"id": 2,
+		"title": "Калифорния темпура",
+		"itemsInBox": 6,
+		"weight": 100,
+		"price": 50,
+		"imgSrc": "orange-mango.jpg",
+		"name": "Daim"
+	},
+	{
+		"id": 3,
+		"title": "Запеченый ролл «Калифорния»",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "rotana.jpg",
+		"name": "Daim"
+	},
+	{
+		"id": 4,
+		"title": "Филадельфия",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "ice-cherry.jpg",
+		"name": "Daim"
+	},
+	{
+		"id": 5,
+		"title": "Запеченый ролл «Калифорния»",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "tabac.png",
+		"name": "Jibiar"
+	},
+	{
+		"id": 6,
+		"title": "Запеченый ролл «Калифорния»",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "tabac.png",
+		"name": "Jibiar"
+	}
+]

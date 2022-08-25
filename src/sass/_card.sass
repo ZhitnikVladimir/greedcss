@@ -27,40 +27,55 @@
                 font-size: 18px
 
 .grid-tovar_jibiar, .grid-tovar_jibiarr, .grid-tovar_jibiarrr
-        display: grid
-        grid-template-columns: 300px 300px 300px 
-        grid-template-rows: 380px 380px 380px
-        width: 100%
-        gap: 20px
-        justify-content: center
-        z-index: 10
+        display: block
+        
         &_active
             display: none
+        .Jibiar
+            display: block
+            &_active
+                display: none
         .grid-element
             background: rgba(255, 255, 255, 0.5)
             border-radius: 3px
+            display: grid
+            grid-template-columns: 300px 300px 300px 
+            grid-template-rows: 380px 380px 380px
+            width: 100%
+            gap: 25px
+            row-gap: 170px
+            justify-content: center
+            z-index: 10
+        
+                
+            .manufacturer
+                height: 270px
+                width: 200px
             &_active
                 display: none
             
-            &:hover
-                width: 102%
-                height: 102%
+            
                 
                 
             .title
                 text-align: center
                 font-size: 18px
+                span
+                    padding-left: 70px
             .grid-element__jibiar_item
                 &_active
                     display: none
             .grid-element__jibiar_info
                 &_active
                     display: none
+   
 .catalog__tabs
-        margin-top: 70px
+        margin-top: 20px
         list-style-type: none
         display: flex
         justify-content: center
+        &_active
+            display: none
 .catalog__tab
         width: 213px
         height: 60px
@@ -103,11 +118,23 @@
     height: 50px
     z-index: 20
     border: none
+   
+    
 .group
     position: relative
     display: none
     &_active
         display: grid
 
-   
+.shop
+    .header
+
+        height: 60px
+        width: 100%
+        padding-top: 10px
+        &_active
+            display: none
+
+
+
         
