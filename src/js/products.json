@@ -1,56 +1,174 @@
 [
 	{
-		"id": 1,
-		"title": "ice blueberry",
-		"itemsInBox": 6,
+		"id": 0,
+		"title": "barbara",
+		"itemsInBox": 9,
 		"weight": 100,
 		"price": 100,
-		"imgSrc": "ice-blueberry.jpg",
-		"name": "Daim"
+		"imgSrc": "barbara.jpg",
+		"name": "Jibiar",
+		"descr": "Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты. Когда от милой моей долины поднимается пар и полдневное солнце стоит над непроницаемой чащей темного леса и лишь редкий луч проскальзывает в его святая святых"
+		
+	},
+	{
+		"id": 1,
+		"title": "dejavu",
+		"itemsInBox": 4,
+		"weight": 100,
+		"price": 50,
+		"imgSrc": "dejavu.jpg",
+		"name": "Jibiar",
+		"descr": "Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты. Когда от милой моей долины поднимается пар и полдневное солнце стоит над непроницаемой чащей темного леса и лишь редкий луч проскальзывает в его святая святых"
 	},
 	{
 		"id": 2,
-		"title": "Калифорния темпура",
-		"itemsInBox": 6,
-		"weight": 100,
-		"price": 50,
-		"imgSrc": "orange-mango.jpg",
-		"name": "Daim"
+		"title": "eskobar",
+		"itemsInBox": 50,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "eskobar.jpg",
+		"name": "Jibiar",
+		"descr": "Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты. Когда от милой моей долины поднимается пар и полдневное солнце стоит над непроницаемой чащей темного леса и лишь редкий луч проскальзывает в его святая святых"
 	},
 	{
 		"id": 3,
-		"title": "Запеченый ролл «Калифорния»",
+		"title": "Kasper",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "Kasper.jpg",
+		"name": "Jibiar",
+		"descr": ""
+	},
+	{
+		"id": 4,
+		"title": "passion",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "passion.jpg",
+		"name": "Jibiar",
+		"descr": ""
+	},
+	{
+		"id": 5,
+		"title": "Arizona",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "arizona.jpg",
+		"name": "Daim",
+		"descr": ""
+	},
+	{
+		"id": 6,
+		"title": "egzotika",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "egzotika.jpg",
+		"name": "Daim",
+		"descr": ""
+		
+	},
+	{
+		"id": 7,
+		"title": "gammybear",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "gammybear.jpg",
+		"name": "Daim",
+		"descr": ""
+	},
+	{
+		"id": 8,
+		"title": "milkcream",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "milkcream.jpg",
+		"name": "Daim",
+		"descr": ""
+	},
+	{
+		"id": 9,
+		"title": "twoapple",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "twoapple.jpg",
+		"name": "Daim",
+		"descr": ""
+	},
+	{
+		"id": 10,
+		"title": "ice cherry",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "ice cherry.jpg",
+		"name": "Serbetli",
+		"descr": ""
+	},
+	{
+		"id": 11,
+		"title": "ice watermelon melon",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "ice watermelon melon.jpg",
+		"name": "Serbetli",
+		"descr": ""
+	},
+	{
+		"id": 12,
+		"title": "twoapple",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "ice with berry flavored.jpg",
+		"name": "Serbetli",
+		"descr": ""
+	},
+	{
+		"id": 13,
+		"title": "twoapple",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "ice-blueberry.jpg",
+		"name": "Serbetli",
+		"descr": ""
+	},
+	{
+		"id": 14,
+		"title": "orange mango",
+		"itemsInBox": 6,
+		"weight": 50,
+		"price": 100,
+		"imgSrc": "orange mango.jpg",
+		"name": "Serbetli",
+		"descr": ""
+	},
+	{
+		"id": 15,
+		"title": "twoapple",
 		"itemsInBox": 6,
 		"weight": 50,
 		"price": 100,
 		"imgSrc": "rotana.jpg",
-		"name": "Daim"
+		"name": "Serbetli",
+		"descr": "lorem"
 	},
 	{
-		"id": 4,
-		"title": "Филадельфия",
-		"itemsInBox": 6,
-		"weight": 50,
+		"id": 16,
+		"title": "barbara",
+		"itemsInBox": 9,
+		"weight": 100,
 		"price": 100,
-		"imgSrc": "ice-cherry.jpg",
-		"name": "Daim"
-	},
-	{
-		"id": 5,
-		"title": "Запеченый ролл «Калифорния»",
-		"itemsInBox": 6,
-		"weight": 50,
-		"price": 100,
-		"imgSrc": "tabac.png",
-		"name": "Jibiar"
-	},
-	{
-		"id": 6,
-		"title": "Запеченый ролл «Калифорния»",
-		"itemsInBox": 6,
-		"weight": 50,
-		"price": 100,
-		"imgSrc": "tabac.png",
-		"name": "Jibiar"
+		"imgSrc": "barbara.jpg",
+		"name": "Jibiar",
+		"descr": "Душа моя озарена неземной радостью, как эти чудесные весенние утра, которыми я наслаждаюсь от всего сердца. Я совсем один и блаженствую в здешнем краю, словно созданном для таких, как я. Я так счастлив, мой друг, так упоен ощущением покоя, что искусство мое страдает от этого. Ни одного штриха не мог бы я сделать, а никогда не был таким большим художником, как в эти минуты. Когда от милой моей долины поднимается пар и полдневное солнце стоит над непроницаемой чащей темного леса и лишь редкий луч проскальзывает в его святая святых"
 	}
 ]

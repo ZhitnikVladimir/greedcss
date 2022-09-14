@@ -1,8 +1,18 @@
-$(document).ready(function(){
-    $('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
-        $(this)
-          .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
-          .closest('div.shopping').find('div.group').removeClass('group_active').eq($(this).index()).addClass('group_active');
-         
-        });
-    });
+let itemsLength = $('.item').length; // Создаем переменную, в которой будем хранить/обновлять наше кол-во элементов
+const $button = $('.add-item'),
+  $buttomItemsLength = $('.get-items-length'),
+  $container = $('.container');
+  
+$button.on('click', () => {
+  $container.append('' +
+    '<div class="item">' +
+      '<div class="img"></div>' +
+      '<div class="text"></div>' +
+    '</div>'
+  );
+  itemsLength = $('.item').length; // Обновляем кол-во .item после каждого добавления
+});
+
+$buttomItemsLength.on('click', () => {
+  console.log(itemsLength); // Выводим переменную itemsLength там где нам нужно
+});

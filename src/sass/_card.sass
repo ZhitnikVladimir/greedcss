@@ -51,6 +51,7 @@
             .manufacturer
                 height: 270px
                 width: 200px
+                z-index: 20
             &_active
                 display: none
             
@@ -70,7 +71,7 @@
                     display: none
    
 .catalog__tabs
-        margin-top: 20px
+        margin-top: 80px
         list-style-type: none
         display: flex
         justify-content: center
@@ -112,14 +113,23 @@
 .undo, .undoo, .undooo
     position: fixed
     left: 90%
+    top: 70%
+    display: grid
+    width: 50px
+    height: 50px
+    z-index: 20
+    border: none
+    background: none
+.basket_shop
+    position: fixed
+    left: 92%
     top: 80%
     display: grid
     width: 50px
     height: 50px
     z-index: 20
     border: none
-   
-    
+    background: none
 .group
     position: relative
     display: none

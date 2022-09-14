@@ -1,4 +1,4 @@
-// Div внутри корзины, в который мы добавляем товары
+
 const cartWrapper =  document.querySelector('.cart-wrapper');
 
 // Отслеживаем клик на странице
@@ -18,7 +18,6 @@ window.addEventListener('click', function (event) {
 			price: card.querySelector('.price__currency').innerText,
 			counter: card.querySelector('[data-counter]').innerText,
 		};
-
 		// Собранные данные подставим в шаблон для товара в корзине
 		const cartItemHTML = `<div class="cart-item" data-id="${productInfo.id}">
 								<div class="cart-item__top">
@@ -26,20 +25,20 @@ window.addEventListener('click', function (event) {
 										<img src="${productInfo.imgSrc}" alt="${productInfo.title}">
 									</div>
 									<div class="cart-item__desc">
-										<div class="cart-item__title">${productInfo.title}</div>
-										<div class="cart-item__weight">${productInfo.itemsInBox} / ${productInfo.weight}</div>
+										<div class="cart-item__title" name="titile">${productInfo.title}</div>
+										<div class="cart-item__weight"  name="item">${productInfo.itemsInBox} / ${productInfo.weight}</div>
 
 										<!-- cart-item__details -->
 										<div class="cart-item__details">
 
 											<div class="items items--small counter-wrapper">
 												<div class="items__control" data-action="minus">-</div>
-												<div class="items__current" data-counter="">${productInfo.counter}</div>
+												<div class="items__current" data-counter=""  name="counter">${productInfo.counter}</div>
 												<div class="items__control" data-action="plus">+</div>
 											</div>
 
 											<div class="price">
-												<div class="price__currency">${productInfo.price}</div>
+												<div class="price__currency"  name="price">${productInfo.price}</div>
 											</div>
 
 										</div>
@@ -48,8 +47,9 @@ window.addEventListener('click', function (event) {
 									</div>
 								</div>
 							</div>`;
-
-		// Отобразим товар в корзине
-        cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
+		cartWrapper.insertAdjacentHTML('beforeend', cartItemHTML);
+	
+        
 	}
+	
 });
